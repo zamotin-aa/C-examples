@@ -66,6 +66,20 @@ if (input1 > 7 || input1 < 1)
 //    Console.WriteLine("Введи от 1 до 7");
 //}
 
+//Вариант 3
+//switch (number) {
+//  case 1:
+//Console.WriteLine();
+// break; 
+//
+//  case 2:
+// Console.WriteLine()
+// break;
+//
+//    default:
+//    Console.WriteLine();
+//    break;
+//}
 
 
 
