@@ -28,24 +28,23 @@ else
 
 
 
-// else
-// {
-// int input3 = - input1;
-// while (input3 >= input1) // -3 >= 3 
-// {
-//     Console.WriteLine(input1); // -3 
-//     input1 ++ ;
-// }}
+else
+{
+int input3 = - input1;
+while (input3 >= input1) // -3 >= 3 
+{
+    Console.WriteLine(input1); // -3 
+    input1 ++ ;
+}}
 
-// Console.WriteLine("Введите целое число");
-// int input1 = Convert.ToInt32(Console.ReadLine());
-// if (input1 > 100 && input1 < 999)
-// {
-// int input2 = input1 % 100; 
-// int input3 = input2 % 10;
-// Console.WriteLine(input3);
-// }
-// else
-// {
-//     Console.WriteLine("Ошибка");
-// }
+Console.WriteLine("Введите целое число");
+int input1 = Convert.ToInt32(Console.ReadLine());
+if (input1 > 100 && input1 < 999)
+{
+int input2 = input1 % 10; 
+Console.WriteLine(input2);
+}
+else
+{
+    Console.WriteLine("Ошибка");
+}
