@@ -2,6 +2,8 @@
 //3 -> Среда 
 //5 -> Пятница
 
+// Закомментировать кусок кода ctrl + /
+
 Console.WriteLine("Введите номер дня недели");
 int input1 = Convert.ToInt32(Console.ReadLine());
 if (input1 == 1) 
@@ -34,7 +36,7 @@ if (input1 == 7)
 }
 if (input1 > 7 || input1 < 1) 
 {
-    Console.WriteLine("Такого дня нет");
+     Console.WriteLine("Такого дня нет");
 }
 
 //Вариант 2
