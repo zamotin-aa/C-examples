@@ -10,22 +10,42 @@
 
 Console.WriteLine("Введите целое число");
 int input1 = Convert.ToInt32(Console.ReadLine());
+int input2 = - input1;
 if (input1 > 0)
 {
-int input2 = - input1;
 while (input2 <= input1)
 {
     Console.WriteLine(input2);
     input2 ++ ;
 }}
-
-// input = -3 
 else
 {
-int input3 = - input1;
-while (input3 >= input1) // -3 >= 3 
+    while (input1 <= input2)
 {
-    Console.WriteLine(input1); // -3 
+    Console.WriteLine(input1);
     input1 ++ ;
 }}
 
+
+
+// else
+// {
+// int input3 = - input1;
+// while (input3 >= input1) // -3 >= 3 
+// {
+//     Console.WriteLine(input1); // -3 
+//     input1 ++ ;
+// }}
+
+// Console.WriteLine("Введите целое число");
+// int input1 = Convert.ToInt32(Console.ReadLine());
+// if (input1 > 100 && input1 < 999)
+// {
+// int input2 = input1 % 100; 
+// int input3 = input2 % 10;
+// Console.WriteLine(input3);
+// }
+// else
+// {
+//     Console.WriteLine("Ошибка");
+// }
