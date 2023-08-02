@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\C# примеры\\Lesson1\\Lesson1.csproj": {}
+    "c:\\Users\\PC\\Desktop\\C# примеры\\Lesson1\\Lesson1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\C# примеры\\Lesson1\\Lesson1.csproj": {
+    "c:\\Users\\PC\\Desktop\\C# примеры\\Lesson1\\Lesson1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\C# примеры\\Lesson1\\Lesson1.csproj",
+        "projectUniqueName": "c:\\Users\\PC\\Desktop\\C# примеры\\Lesson1\\Lesson1.csproj",
         "projectName": "Lesson1",
-        "projectPath": "C:\\Users\\PC\\Desktop\\C# примеры\\Lesson1\\Lesson1.csproj",
+        "projectPath": "c:\\Users\\PC\\Desktop\\C# примеры\\Lesson1\\Lesson1.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\C# примеры\\Lesson1\\obj\\",
+        "outputPath": "c:\\Users\\PC\\Desktop\\C# примеры\\Lesson1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
