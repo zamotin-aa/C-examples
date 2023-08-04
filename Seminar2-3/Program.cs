@@ -10,11 +10,7 @@ Console.WriteLine("Введите второе число");
 int input2 = Convert.ToInt32(Console.ReadLine());
 
 
-if (input1*input1 == input2)
-{
-    Console.WriteLine("Да");
-}
-else if (input2*input2 == input1)
+if (input1*input1 == input2 || input2*input2 == input1)
 {
     Console.WriteLine("Да");
 }
