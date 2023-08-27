@@ -14,12 +14,20 @@ int number = Parse("Введите число");
 
 int Sumxx(int number)
 {
-    int sum = 1;
-    for (int i = 1; i <= number; i++)
+    if (number <= 0)
     {
-        sum *= i;
+        Console.WriteLine("Введено отрицательное число");
+        return 0;
     }
-    return sum;
+    else
+    {
+        int sum = 1;
+        for (int i = 1; i <= number; i++)
+        {
+            sum *= i;
+        }
+        return sum;
+    }
 }
 
 Console.WriteLine(Sumxx(number));
