@@ -29,5 +29,4 @@ static int Akkerman(int M, int N)
 }
 int M = 3;
 int N = 2;
-// Вызываем функцию Ackermann и выводим результат на экран
 Console.WriteLine("Функция Аккермана от {0} и {1} равна {2}", M, N, Akkerman(M, N));
